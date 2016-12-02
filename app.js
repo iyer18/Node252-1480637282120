@@ -47,7 +47,8 @@ var cfenv = require('cfenv');
 //});
 
 // serve the files out of ./public as our main files
-//app.use(express.static(__dirname + '/public'));
+
+app.use(express.static(__dirname + '/images'));
 
 
 require('./app/routes.js')(app, passport);
