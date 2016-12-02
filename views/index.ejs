@@ -7,23 +7,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
 </head>
 <body>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/">CS252 Project</a>
+      <a class="navbar-brand" href="#">CS252 Project</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="/">Home</a></li>
+    <ul class="nav navbar-nav" color="blue">
+      <li class="active"><a href="#">Home</a></li>
+      
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Page 1-1</a></li>
@@ -34,71 +28,21 @@
       <li><a href="#">Page 2</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="/profile"><span class="glyphicon glyphicon-user"></span> Account</a></li>
+
     </ul>
   </div>
 </nav>
-  
+ <div class="jumbotron">
 <div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="gg.jpg" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <div class="item active">
-        <img src="gg.jpg" alt="Gunjan1" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Gunjan</h3>
-          <p>Kya haal?</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="gg.jpg" alt="Gunjan2" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Gunjan</h3>
-          <p>Kya haal?</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="../gg.jpg" alt="Gunjan3" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Gunjan</h3>
-          <p>Kya haal?</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="gg.jpg" alt="Gunjan4" width="460" height="345">
-        <div class="carousel-caption">
-          <h3>Gunjan</h3>
-          <p>Kya haal?</p>
-        </div>
-      </div>
-  
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+<h2>Welcome to our CS252 Project</h2>
+<p>The Bootstrap is most popular front end framework for creating websites and web applications. Bootstrap is a powerful front end framework which makes faster and easier web development.
+It includes CSS and HTML for typography, icons, forms, buttons, tables, layout grids and other interface components, as well as optional JavaScript extensions.</p>
+<p><a href="/signup" class="btn btn-primary">Signup</a></p>
 </div>
+</div>
+
 
 </body>
 </html>
